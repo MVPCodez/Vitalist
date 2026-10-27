@@ -1,0 +1,10 @@
+{
+  "$schema": "https://githubusercontent.com",
+  "gitignore": "none",
+  "sharedFolders": [
+    {
+      "path": ".",
+      "exclude": []
+    }
+  ]
+}
