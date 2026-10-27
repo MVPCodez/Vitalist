@@ -102,7 +102,7 @@ export default function App() {
   const [aiAnalysis, setAiAnalysis] = useState('');
   const [aiLoading, setAiLoading] = useState(false);
   const [chatMessages, setChatMessages] = useState([
-    { role: 'assistant', text: 'Hello! I am your CarePulse AI Health Assistant. Ask me anything about your health trends, symptom pacing, or preparation questions for your doctor!' }
+    { role: 'assistant', text: 'Hello! I am your Vitalist AI Health Assistant. Ask me anything about your health trends, symptom pacing, or preparation questions for your doctor!' }
   ]);
   const [chatInput, setChatInput] = useState('');
   const [chatLoading, setChatLoading] = useState(false);
@@ -384,7 +384,7 @@ Answer empathetically, concisely, and accurately based on patient care guideline
               <Activity className="w-6 h-6 stroke-[2.5]" />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight">CarePulse</h1>
+              <h1 className="text-xl font-bold tracking-tight">Vitalist</h1>
               <p className="text-xs text-teal-200">Chronic Care & Daily Health Tracker</p>
             </div>
           </div>
@@ -1214,7 +1214,7 @@ Answer empathetically, concisely, and accurately based on patient care guideline
 
       {/* FOOTER */}
       <footer className="bg-slate-100 border-t border-slate-200 py-4 text-center text-xs text-slate-500">
-        <p>CarePulse Tracker &copy; 2026. Designed for patient health management.</p>
+        <p>Vitalist Tracker &copy; 2026. Designed for patient health management.</p>
         <p className="text-[10px] mt-1 text-slate-400">
           Disclaimer: This application is for personal health tracking purposes and does not replace formal medical advice.
         </p>

@@ -12,7 +12,7 @@ export default function LandingHome({ onSelectRole, onOpenAuth }) {
               <Activity className="w-6 h-6 stroke-[2.5]" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-slate-800 tracking-tight">CarePulse</h1>
+              <h1 className="text-xl font-bold text-slate-800 tracking-tight">Vitalist</h1>
               <p className="text-[11px] text-teal-600 font-medium">Chronic Care &amp; Health Intelligence</p>
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function LandingHome({ onSelectRole, onOpenAuth }) {
 
       {/* FOOTER */}
       <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500">
-        <p>CarePulse Chronic Health Platform &copy; 2026. Designed for patient and provider collaboration.</p>
+        <p>Vitalist Chronic Health Platform &copy; 2026. Designed for patient and provider collaboration.</p>
         <p className="text-[10px] text-slate-400 mt-1">Connected to Firebase Project carepulse-414fb</p>
       </footer>
     </div>

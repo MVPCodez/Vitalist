@@ -84,7 +84,7 @@ export default function AuthModal({ isOpen, initialRole = 'patient', onClose, on
           <div className="w-14 h-14 bg-white/10 rounded-2xl mx-auto flex items-center justify-center backdrop-blur-md mb-2 border border-white/20 shadow-inner">
             <Activity className="w-8 h-8 text-white stroke-[2.5]" />
           </div>
-          <h2 className="text-2xl font-bold tracking-tight">CarePulse</h2>
+          <h2 className="text-2xl font-bold tracking-tight">Vitalist</h2>
           <p className="text-xs text-teal-200 mt-0.5">Chronic Care Health Management Platform</p>
         </div>
 

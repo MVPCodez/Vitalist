@@ -2,7 +2,7 @@
   "name": "carepulse",
   "private": true,
   "version": "1.0.0",
-  "description": "CarePulse – Chronic Care & Daily Health Tracker",
+  "description": "Vitalist – Chronic Care & Daily Health Tracker",
   "type": "module",
   "scripts": {
     "dev": "vite",

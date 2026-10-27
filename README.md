@@ -1,10 +1,10 @@
-# CarePulse
+# Vitalist
 
 **AI-Powered Chronic Disease Management and Patient Monitoring**
 
-CarePulse is a chronic disease management app that helps patients track symptoms, monitor daily health metrics, manage medications, and prepare for doctor visits. It combines health tracking, data visualization, AI-generated insights, and voice-based check-ins in one place.
+Vitalist is a chronic disease management app that helps patients track symptoms, monitor daily health metrics, manage medications, and prepare for doctor visits. It combines health tracking, data visualization, AI-generated insights, and voice-based check-ins in one place.
 
-CarePulse also includes a doctor portal that gives healthcare providers a view of patient health logs, medication status, and appointments. Patient data is backed by Firebase Firestore, and AI features help users review health trends and prepare questions for their care team.
+Vitalist also includes a doctor portal that gives healthcare providers a view of patient health logs, medication status, and appointments. Patient data is backed by Firebase Firestore, and AI features help users review health trends and prepare questions for their care team.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ CarePulse also includes a doctor portal that gives healthcare providers a view o
 
 Managing a chronic condition often means tracking symptoms, remembering medications, monitoring vital signs, and sharing health updates with a care team. These details can be hard to manage across separate tools.
 
-CarePulse brings these tasks into one interface.
+Vitalist brings these tasks into one interface.
 
 Patients can record daily symptoms and health metrics, review past entries, monitor medication adherence, and use AI tools to explore patterns in their data. Voice check-ins offer another way to record health information. Doctors can review the same patient record through a dedicated provider portal.
 
@@ -67,7 +67,7 @@ If a patient saves another entry for a date that already exists, the app updates
 
 ### 3. Voice-Based Health Check-ins
 
-CarePulse includes a voice check-in modal that can support hands-free health logging.
+Vitalist includes a voice check-in modal that can support hands-free health logging.
 
 - Open a voice check-in from the dashboard.
 - Apply captured health metrics to the daily tracker.
@@ -106,7 +106,7 @@ Appointment data is loaded through the Firestore data hook and passed to the app
 
 ### 8. AI Health Insights
 
-CarePulse uses an AI service to analyze recent health logs and generate a readable health summary.
+Vitalist uses an AI service to analyze recent health logs and generate a readable health summary.
 
 The report prompt asks the model to identify:
 
@@ -127,7 +127,7 @@ The current implementation sends the user's question and a summary of up to five
 
 ### 10. Patient Sharing and Doctor Portal
 
-CarePulse includes a sharing panel and a dedicated doctor dashboard.
+Vitalist includes a sharing panel and a dedicated doctor dashboard.
 
 The sharing panel receives health logs, average pain, medication adherence, and a share code. It can also provide navigation to the doctor portal.
 
@@ -416,7 +416,7 @@ Appointment fields depend on the `AppointmentList` and `DoctorDashboard` impleme
 
 ## AI Features
 
-CarePulse uses two AI workflows.
+Vitalist uses two AI workflows.
 
 ### Health report generation
 
@@ -462,7 +462,7 @@ The supplied application code wires these views together, but it does not by its
 
 ## Privacy and Security
 
-CarePulse handles health-related data, so privacy and access control must be core design requirements.
+Vitalist handles health-related data, so privacy and access control must be core design requirements.
 
 Before using the app with real patient data:
 
@@ -483,7 +483,7 @@ These are important production requirements. The provided component wiring alone
 
 ## Medical Disclaimer
 
-CarePulse is a health tracking and informational support tool. It is not a medical device, diagnostic system, or substitute for a licensed healthcare professional.
+Vitalist is a health tracking and informational support tool. It is not a medical device, diagnostic system, or substitute for a licensed healthcare professional.
 
 The app's calculations and AI-generated insights may contain errors and should not be used alone to make medical decisions. Patients should consult their care team before changing treatment or medication.
 
@@ -507,8 +507,8 @@ Potential next steps include:
 
 ## Project Status
 
-CarePulse includes the main interface and component wiring for chronic disease tracking, medication status, appointment viewing, AI-assisted health summaries, and a doctor-facing dashboard.
+Vitalist includes the main interface and component wiring for chronic disease tracking, medication status, appointment viewing, AI-assisted health summaries, and a doctor-facing dashboard.
 
 The completeness of authentication, live data synchronization, voice processing, AI integration, and security depends on the supporting hooks, components, backend configuration, and Firebase rules.
 
-CarePulse is intended to support better health tracking and more informed conversations between patients and their care teams.
+Vitalist is intended to support better health tracking and more informed conversations between patients and their care teams.
